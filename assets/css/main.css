@@ -2507,7 +2507,7 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/pic02_2.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2564,9 +2564,9 @@
 		}
 
 		#header .logo {
-			background: #03A9F4;
+			background: #ffffff;
 			border-radius: 100%;
-			color: #ffffff;
+			color: #03a9f4;
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
@@ -2843,6 +2843,20 @@
 				#header p {
 					font-size: 1.15em;
 				}
+
+				#header input[type="button"],
+				#header .button {
+					background: #ffffff;
+					box-shadow: inset 0 0 0 1px #ffffff;
+					color: #03A9F4;
+				}
+
+					#header input[type="button"]:hover,
+					#header .button:hover {
+						background: rgba(224, 224, 224, 0.15);
+						color: #ffffff;
+					}
+
 
 		/* Footer */
 
